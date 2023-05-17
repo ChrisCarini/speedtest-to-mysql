@@ -1,0 +1,7 @@
+.idea/
+venv/
+ookla-speedtest-cli-eula.json
+config.yaml
+speedtest_to_mysql.log*
+speedtest.db
+*.csv

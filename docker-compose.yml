@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  speedtest_to_mysql:
+    build: .
+    volumes:
+      - ${PWD}/config.yaml:/config.yaml:ro
+      - ${PWD}/ookla-speedtest-cli-eula.json:/root/.config/ookla/speedtest-cli.json:ro
